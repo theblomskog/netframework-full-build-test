@@ -1,0 +1,10 @@
+
+dist: trusty
+sudo: required
+language: csharp
+dotnet: 2.0.0
+solution: WebApplication1.sln
+script:
+  - cd WebApplication1
+  - dotnet restore
+  - dotnet build -c Release
