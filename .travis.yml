@@ -8,4 +8,5 @@ script:
   - cd WebApplication1
   - dotnet restore
   - dotnet build -c Release
-os: windows  
+os: 
+  - windows  
