@@ -15,5 +15,16 @@ namespace XUnitTestProject1
 
             Assert.Equal("Hello tb!", result);
         }
+
+        [Fact]
+        public void SayHello_Test2()
+        {
+
+
+            var util = new WebApplication1.Utils();
+            var result = util.SayHello("ka");
+
+            Assert.Equal("Hello ka!", result);
+        }
     }
 }
